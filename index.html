@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="box">
+      <h1>TEJ Application Project</h1>
+      <p>This is just a small sample website with basic javascript functionality</p>
+      <div class="btn-div">
+        <button onclick="respond()" class="btn" type="button" name="button">Say Hello</button>
+      </div>
+      <div class="counter-box">
+        <div class="">
+          <button onclick="counter('+')" id="up" type="button" name="button">+</button>
+        </div>
+        <div class="" style="display: flex;">
+          <p class="text">Current number: <span id='counter'>0</span></p>
+        </div>
+        <button onclick="counter('-')" id="down" type="button" name="button">-</button>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

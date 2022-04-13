@@ -1,0 +1,33 @@
+.counter-box{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  color: red;
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  margin: 5px;
+}
+
+.text{
+  display: inline;
+  text-align: center;
+}
+
+.box{
+  background: #36eeff;
+  width: 30%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+.btn-div{
+  display: flex;
+  justify-content: center;
+}
